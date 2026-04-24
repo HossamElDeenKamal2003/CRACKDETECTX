@@ -12,8 +12,8 @@ const fs         = require('fs');
 const logger = require('./config/logger');
 const { pool } = require('./config/database');
 
-const authRoutes = require('./routes/auth.routes');
-const userRoutes = require('./routes/user.routes');
+const authRoutes = require('./src/routes/auth.routes');
+const userRoutes = require('./src/routes/user.routes');
 const {
   buildingsRouter,
   scansRouter,
